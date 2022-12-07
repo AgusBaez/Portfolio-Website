@@ -24,7 +24,7 @@ const Contact = () => {
             <FiInstagram className='contact__option-icon'/>
             <h4>Instagram</h4>
             <h5>@agustin baez developer</h5>
-            <a href="https://www.instagram.com/agustin_baez_developer/">Send a message</a> 
+            <a href="https://www.instagram.com/agustin_baez_developer/">Send a message</a>
             </article>
           <article className="contact__option">
             <AiOutlineLinkedin className='contact__option-icon'/>
@@ -32,12 +32,12 @@ const Contact = () => {
             <h5>Agustin Baez</h5>
             <a href="https://www.linkedin.com/in/agus-baez/">Send a message</a>
             </article>
-          <form action="">
+          {/* <form action="">
             <input type="text" name='name' placeholder='Your Full Name' required/>  
             <input type="email" name='email' placeholder='Your Email' required/>
             <textarea name="message" rows="7" placeholder='Your Message' required />
             <button type='sumbit' className='btn btn-primary'>Send Message</button>
-          </form>
+          </form> */}
 
         </div>
       </div>

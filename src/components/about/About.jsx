@@ -42,7 +42,15 @@ const About = () => {
             </article>
           </div>
 
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos nihil quisquam sequi nam recusandae provident sunt est delectus sed nesciunt, nostrum iusto doloremque repudiandae, amet expedita. Neque magni excepturi exercitationem?</p>
+          <p>🧔 I'm Agus. 21 years old, entrepreneur and a lover of code and 🍺.
+💼 I live in Argentina, Buenos Aires.
+💻 Web Developer T-Shaped(?) Node.js × Express.
+🎓 Computer Technician.
+💜 Love to share my knowledge.
+💯 Committed to learning about IT.
+⭐ Uniquely naive tho independent.
+🍎 In search of professional and personal growth.
+I love to race in where the weaks fear to tread. Committed to face fears & overcome them. In order to escape any feeling of being stuck, i love travel.</p>
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>

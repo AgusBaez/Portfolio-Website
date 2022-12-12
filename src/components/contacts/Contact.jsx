@@ -5,6 +5,9 @@ import {BiMailSend} from 'react-icons/bi'
 import {FiInstagram} from 'react-icons/fi'
 import {AiOutlineLinkedin} from 'react-icons/ai'
 import "./contact.css";
+
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
 //Van a exitir diferentes componentes para cada seccion de la app, cada carpeta contendria cada seccion de componentes
 //# Creando una funcion componente react
 const Contact = () => {
@@ -26,11 +29,11 @@ const Contact = () => {
             <h5>@agustin baez developer</h5>
             <a href="https://www.instagram.com/agustin_baez_developer/">Send a message</a>
             </article>
-          <article className="contact__option">
+          <article className="contact__option">        
             <AiOutlineLinkedin className='contact__option-icon'/>
             <h4>Linkedin</h4>
             <h5>Agustin Baez</h5>
-            <a href="https://www.linkedin.com/in/agus-baez/">Send a message</a>
+            <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="agus-baez" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ar.linkedin.com/in/agus-baez?trk=profile-badge">Send me a Message</a></div>
             </article>
           {/* <form action="">
             <input type="text" name='name' placeholder='Your Full Name' required/>  
@@ -38,11 +41,11 @@ const Contact = () => {
             <textarea name="message" rows="7" placeholder='Your Message' required />
             <button type='sumbit' className='btn btn-primary'>Send Message</button>
           </form> */}
-
         </div>
       </div>
-    </section>
+</section>
   )
 }
+
 
 export default Contact
